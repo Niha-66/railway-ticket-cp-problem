@@ -9,7 +9,7 @@ Disabled
 ## Attempt 1
 
 Conversation Link:
-<paste Qwen share link>
+<https://chat.qwen.ai/s/f5c42923-713e-4b62-bfbe-e945362eee81?fev=0.2.81>
 
 Result:
 Failed on test cases because ...

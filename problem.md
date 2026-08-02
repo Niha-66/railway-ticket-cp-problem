@@ -2,36 +2,43 @@
 
 ## Problem Statement
 
-There are N coaches in a train. Each coach contains exactly one passenger. Every passenger has a destination coach where they want to end up.
+There are N passengers in a train. Each passenger occupies exactly one coach.
+Every passenger has a destination coach where they want to end up.
 
-In one operation, you can swap passengers in two adjacent coaches.
+Each passenger has:
+- Current coach
+- Destination coach
+- Age
 
-Your task is to determine the minimum number of swaps required so that every passenger reaches their destination coach.
-## Note
-During an emergency evacuation, railway regulations state that senior citizens (age > 60) must remain in their assigned coach for safety reasons. Therefore, they cannot be swapped with other passengers.
+In one operation, two passengers in adjacent coaches can swap their positions.
+
+Your task is to determine the minimum number of adjacent swaps required so that every passenger reaches their destination coach.
+
+During an emergency evacuation, passengers with age greater than 60 must remain in their assigned coach for safety reasons. Their positions cannot be changed through swaps.
+
+## Constraints
+
+- N passengers
+- Coach numbers range from 1 to N
+- Every destination coach is unique
+- Passengers with age > 60 cannot be moved
+- If it is impossible to achieve the required arrangement, print -1
 
 ## Input
 
 The first line contains an integer N.
 
-The second line contains N integers representing the current arrangement of passengers.
+The next N lines contain three integers:
 
-The third line contains N integers representing the desired arrangement.
+currentCoach destinationCoach age
+
+where:
+- currentCoach represents the passenger's current coach number.
+- destinationCoach represents the coach where the passenger needs to reach.
+- age represents the passenger's age.
 
 ## Output
 
 Print the minimum number of adjacent swaps required.
 
-## Constraints
-
-(To be decided)
-
-## Example
-
-Input:
-5
-2 1 5 3 4
-1 2 3 4 5
-
-Output:
-3
+If the rearrangement is impossible, print -1.

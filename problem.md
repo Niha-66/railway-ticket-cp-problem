@@ -7,6 +7,8 @@ There are N coaches in a train. Each coach contains exactly one passenger. Every
 In one operation, you can swap passengers in two adjacent coaches.
 
 Your task is to determine the minimum number of swaps required so that every passenger reaches their destination coach.
+## Note
+During an emergency evacuation, railway regulations state that senior citizens (age > 60) must remain in their assigned coach for safety reasons. Therefore, they cannot be swapped with other passengers.
 
 ## Input
 

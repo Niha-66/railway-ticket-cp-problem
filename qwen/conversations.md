@@ -19,7 +19,7 @@ Failed on test cases because ...
 ## Attempt 2
 
 Conversation Link:
-<paste Qwen share link>
+<https://chat.qwen.ai/s/1d41ebdd-01cc-4a16-a675-819b4fa59795?fev=0.2.81>
 
 Result:
 Failed on test cases because ...

@@ -12,7 +12,8 @@ Conversation Link:
 <https://chat.qwen.ai/s/f5c42923-713e-4b62-bfbe-e945362eee81?fev=0.2.81>
 
 Result:
-Failed on test case 1. The generated solution did not produce the expected output for this edge case.
+Failed on test cases 1 and 5. The generated solution produced 13 swaps instead of the expected 9 swaps, showing incorrect minimum swap calculation.
+
 
 ---
 
@@ -22,8 +23,7 @@ Conversation Link:
 <https://chat.qwen.ai/s/1d41ebdd-01cc-4a16-a675-819b4fa59795?fev=0.2.81>
 
 Result:
-Failed on test cases because ...
-
+Passed all provided test cases.
 ---
 
 ## Attempt 3
